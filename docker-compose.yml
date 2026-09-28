@@ -8,9 +8,10 @@ services:
       VERSION: "10"
       USERNAME: usuario
       PASSWORD: cg771003M
-      RAM_SIZE: "8G"
-      CPU_CORES: "4"
+      RAM_SIZE: "4G"
+      CPU_CORES: "2"
       DISK_SIZE: "20G"
+      KVM: "no"
     cap_add:
       - NET_ADMIN
     ports:
